@@ -1,0 +1,21 @@
+nav.navbar {
+    display: flex;
+    background: #234465;
+  }
+
+.Logo {
+    width: 250px;
+    margin-left: 50px;
+}
+
+.engineeringToolLabel {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+    margin-right: 70px;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+

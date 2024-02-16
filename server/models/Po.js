@@ -1,0 +1,42 @@
+const { Schema, model } = require('mongoose');
+  
+var excelSchema = new Schema({  
+    quoteResponsibility: { type: String },
+    text4: { type: String },
+    PONumber: { type: String },  
+    orderType: { type: String },
+    priority: { type: String },
+    vendorCode: { type: String },
+    supplierName: { type: String },  
+    PN: { type: String },
+    SN: { type: String },
+    PNDescription: { type: String },
+    quoteReason: { type: String },
+    stockType: { type: String },
+    cust3LC: { type: String },
+    VK13: { type: Number },
+    VK13Currency: { type: String },
+    FMV: { type: Number },
+    FMVCurrency: { type: String },
+    quotePrice: { type: Number },
+    quotePriceCurrency: { type: String },
+    workscope: { type: String },
+    scrapFee: { type: Number },
+    scrapFeeCurrency: { type: String },
+    CIDCosts: { type: Number },
+    CIDCostsCurrency: { type: String },
+    forwardedOn: { type: String },
+    consultedOn: { type: String },
+    engineer: { type: String },
+    CPE: { type: String },
+    valueEngineer: { type: String },
+    CPG: { type: String },
+    ACQE: { type: String },
+    removalReason: { type: String },
+    savingComment: { type: String },
+    savingsEUR: { type: Number },
+    pepInfo: { type: String },
+    clarification: { type: String }
+});  
+  
+module.exports = model('PO', excelSchema); 

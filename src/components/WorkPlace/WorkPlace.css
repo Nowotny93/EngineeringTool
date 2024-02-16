@@ -1,0 +1,555 @@
+.fullScreen {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    background-color: aliceblue;
+  }
+
+.fullScreen input {
+  height: 13px;
+}
+  
+.fullScreen select {
+  height: 19px;
+  font-size: 12px;
+}
+
+.fullScreen textarea {
+  font-size: 11px;
+}
+
+.splitLeft {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+  
+.splitRight {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.informationSection {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+
+.informationSectionLeft {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+  
+.informationSectionRight {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* ----------------------ROW1----------------------- */
+/* 1. LEFT PART */
+
+.row1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.row1 input:nth-of-type(1) {
+    margin-left: 15px;
+}
+
+.row1 input:nth-of-type(2) {
+    margin-left: 3px;
+}
+
+/* 2. RIGHT PART */
+
+.row1 span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* ----------------------ROW2----------------------- */
+/* 1. LEFT PART */
+
+.row2 {
+    margin-top: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.row2 input:nth-of-type(1) {
+    margin-left: 17px;
+}
+
+.row2 input:nth-of-type(2) {
+    margin-left: 3px;
+}
+
+.row2 input:nth-of-type(3) {
+    margin-left: 3px;
+}
+
+/* 2. RIGHT PART */
+
+#revisedOn {
+  margin-left: 23px;
+}
+
+.row2 span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* ----------------------ROW3----------------------- */
+/* 1. LEFT PART */
+
+.row3 {
+    margin-top: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.row3 input:nth-of-type(1) {
+    margin-left: 39px;
+}
+
+.row3 input:nth-of-type(2) {
+    margin-left: 3px;
+}
+
+/* 2. RIGHT PART */
+
+#forwardedOn {
+  margin-left: 10px;
+}
+
+/* ----------------------ROW4----------------------- */
+/* 1. LEFT PART */
+
+.row4 {
+    margin-top: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.row4  input {
+    margin-left: 33px;
+}
+
+/* 2. RIGHT PART */
+
+#consultedOn {
+  margin-left: 13px;
+}
+
+
+/* ----------------------ROW5----------------------- */
+/* 1. LEFT PART */
+
+.row5 {
+    margin-top: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.row5 input:nth-of-type(1) {
+    margin-left: 59px;
+}
+
+.row5 input:nth-of-type(2) {
+    margin-left: 3px;
+}
+
+/* 2. RIGHT PART */
+
+#engineer {
+  margin-left: 33px;
+}
+
+#CPE {
+  margin-left: 3px;
+}
+
+/* ----------------------ROW6----------------------- */
+/* 1. LEFT PART */
+
+.row6 {
+    margin-top: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.row6 input:nth-of-type(1) {
+    margin-left: 15px;
+}
+
+.row6 select {
+  margin-left: 3px
+}
+
+.row6 input:nth-of-type(2) {
+  margin-left: 3px;
+}
+
+/* 2. RIGHT PART */
+
+#valueEngineer {
+  margin-left: 11px;
+}
+
+#CPG {
+  margin-left: 3px;
+}
+
+#ACQE {
+  margin-left: 3px;
+}
+
+
+/* ----------------------ROW7----------------------- */
+
+.row7 {
+  margin-top: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.row7 input {
+  margin-left: 15px;
+}
+
+.row7 select {
+  margin-left: 3px;
+}
+
+/* ----------------------ROW8----------------------- */
+
+.row8 {
+  margin-top: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.row8 input {
+  margin-left: 46px;
+}
+
+.row8 select {
+  margin-left: 3px;
+}
+
+/* ----------------------ROW9----------------------- */
+
+.row9 {
+  margin-top: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.row9 input {
+  margin-left: 15px;
+}
+
+.row9 select {
+  margin-left: 3px;
+}
+
+/* ----------------------ROW10----------------------- */
+
+.row10 {
+  margin-top: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.row10 input {
+  margin-left: 17px;
+}
+
+.row10 select {
+  margin-left: 3px;
+}
+
+/* ----------------------ROW11----------------------- */
+
+.row11 {
+  margin-top: 3px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.row11 input {
+  margin-left: 22px;
+}
+
+.row11 select {
+  margin-left: 3px;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 5px 0px;
+  margin-top: 1px;
+}
+
+.hr-sect:before,
+.hr-sect:after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+
+/* ----------------------MODIFICATIONS SECTION----------------------- */
+
+.modificationsSection {
+  margin-top: 3px;
+}
+
+.modificationsTable {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  border: 1px solid black;
+  height: 18vh;
+}
+
+.modificationsTable-header {
+  flex: 0 0 auto;
+  display: table;
+  table-layout: fixed;
+}
+
+.addSB-btn {
+  float: right;
+  padding: 1px;
+  background-color: silver;
+  color: #234465;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addSB-btn:hover {
+  background-color: palegreen;
+}
+
+.modificationsTable-body {
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.modificationsTable-body tr td input {
+  font-size: 11px;
+}
+
+.modificationsTable-body::-webkit-scrollbar {
+  display: none;
+}
+
+.modificationsTable-row {
+  width: 100%;
+  background-color: cyan;
+  display: table;
+  table-layout: fixed;
+  flex: 0 0 auto;
+}
+
+.docNum-header {
+  width: 30%;
+}
+
+.price-header {
+  width: 15%;
+}
+
+.event-header {
+  width: 35%;
+}
+
+.RR-header {
+  width: 10%;
+}
+
+.add-header {
+  width: 10%;
+}
+
+
+.docNum-trow {
+  width: 30%;
+}
+
+.price-trow {
+  width: 15%;
+}
+
+.event-trow {
+  width: 35%;
+}
+
+.RR-trow {
+  width: 10%;
+}
+
+.add-trow {
+  width: 10%;
+}
+
+.cellInput {
+  display: block; padding: 0; margin: 0; border: 1; width: 100%
+}
+
+table tr {
+  font-size: 12px;
+}
+
+table th {
+  background-color: #234465;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table td {
+  font-weight: 500;
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+table tbody tr:hover {
+  background-color: palegreen;
+  -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+  -moz-box-shadow: 0 6px 6px -6px #0E1119;
+  box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.clarificationSection {
+  border: 1px solid black;
+}
+
+/* ----------------------ROW12----------------------- */
+
+.row12 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.removalReason {
+  width: 230px;
+  margin-left: 6px;
+}
+
+.savingComment {
+  width: 230px;
+  margin-left: 3px;
+}
+
+.savingsEUR {
+  width: 96px;
+  margin-left: 3px;
+}
+
+.save-btn {
+  margin-left: 15px;
+  margin-top: 14px;
+}
+
+.save-btn button {
+  height: 21px;
+}
+
+/* ----------------------ROW13----------------------- */
+
+.row13 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.clarification {
+  width: 60%;
+}
+
+.pepInfo {
+  width: 40%;
+}
+
+.inline-txtarea1 {
+  width: 95%;
+  height: 30.8vh;
+  resize: none;
+}
+
+.inline-txtarea2 {
+  width: 95%;
+  height: 30.8vh;
+  resize: none;
+}
+
+.inline-txtarea1-history {
+  width: 95%;
+  height: 15vh;
+  resize: none;
+}
+
+.inline-txtarea2-history {
+  width: 95%;
+  height: 15vh;
+  resize: none;
+}
+
+
+.filtersTable {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  min-height: 16vh;
+  height: 16vh;
+}
+.filtersTable-header {
+  flex: 0 0 auto;
+  /* width: calc(100% - 0.9em); */
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+.filtersTable-body {
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.filtersTable-body tr td{
+  font-size: 11px;
+}
+.filtersTable-body::-webkit-scrollbar {
+  display: none;
+}
+.filtersTable-row {
+  width: 100%;
+  background-color: cyan;
+  display: table;
+  table-layout: fixed;
+}
+
+
